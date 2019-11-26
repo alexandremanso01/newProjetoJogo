@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57105E751FA3F1070078D898 /* DetalhesDoJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57105E741FA3F1070078D898 /* DetalhesDoJogoViewController.swift */; };
+		5732D7411FB658F300D21492 /* ListaDePessosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732D7401FB658F300D21492 /* ListaDePessosTableViewController.swift */; };
+		5732D7431FB6594F00D21492 /* NovaPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732D7421FB6594F00D21492 /* NovaPessoaViewController.swift */; };
+		5738749E1F9173D000FC5A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738749D1F9173D000FC5A46 /* AppDelegate.swift */; };
+		573874A01F9173D000FC5A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738749F1F9173D000FC5A46 /* ViewController.swift */; };
+		573874A31F9173D000FC5A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573874A11F9173D000FC5A46 /* Main.storyboard */; };
+		573874A51F9173D000FC5A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573874A41F9173D000FC5A46 /* Assets.xcassets */; };
+		573874A81F9173D000FC5A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573874A61F9173D000FC5A46 /* LaunchScreen.storyboard */; };
+		573874B01F91864D00FC5A46 /* ListaJogosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573874AF1F91864D00FC5A46 /* ListaJogosTableViewController.swift */; };
+		573874B21F91872600FC5A46 /* NovoJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573874B11F91872600FC5A46 /* NovoJogoViewController.swift */; };
+		5792541F1F9AB7A40052177B /* Jogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792541E1F9AB7A40052177B /* Jogo.swift */; };
+		960FA9A92029023200AC632A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 960FA9A82029023100AC632A /* GoogleService-Info.plist */; };
+		960FA9AC2029118F00AC632A /* FIRDataBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA9AB2029118F00AC632A /* FIRDataBaseService.swift */; };
+		96131581202A51E30046781A /* JogoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96131580202A51E30046781A /* JogoService.swift */; };
+		96131583202A54B80046781A /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96131582202A54B80046781A /* CoreDataService.swift */; };
+		96131585202A67270046781A /* JogoSnapShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96131584202A67260046781A /* JogoSnapShot.swift */; };
+		967325D32027A32400F4BC04 /* DevolucaoPorPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967325D22027A32400F4BC04 /* DevolucaoPorPessoaViewController.swift */; };
+		96A466D720128CAB0010AF9A /* ProjetoJogo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A466D520128CAB0010AF9A /* ProjetoJogo.xcdatamodeld */; };
+		96C12A5E201BD8AD0082C3E1 /* locarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C12A5D201BD8AD0082C3E1 /* locarViewController.swift */; };
+		96C12A60201BDF5C0082C3E1 /* LocarJogoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C12A5F201BDF5C0082C3E1 /* LocarJogoTableViewController.swift */; };
+		96C12A62201CBE260082C3E1 /* SelecionarPessoaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C12A61201CBE260082C3E1 /* SelecionarPessoaTableViewController.swift */; };
+		96E4537420250C1700A90EDE /* DevolucaoPorJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4537320250C1700A90EDE /* DevolucaoPorJogoViewController.swift */; };
+		96E4537B20251D4800A90EDE /* DevolucaoPorPessoaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4537A20251D4800A90EDE /* DevolucaoPorPessoaTableViewController.swift */; };
+		96E777792022657D0019BBF1 /* PessoaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E777782022657D0019BBF1 /* PessoaTableViewCell.xib */; };
+		96E7777B202278EE0019BBF1 /* DevolucaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7777A202278ED0019BBF1 /* DevolucaoTableViewController.swift */; };
+		9F09DB99CF2962F228C82DF7 /* Pods_ProjetoJogo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92128CC6B936ECC448ED88F5 /* Pods_ProjetoJogo.framework */; };
+		F4A44A631FE46AD700645FD7 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44A621FE46AD600645FD7 /* Pessoa.swift */; };
+		F4A44A661FE470E800645FD7 /* PessoaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44A651FE470E800645FD7 /* PessoaTableViewCell.swift */; };
+		F4A44A681FE47F7F00645FD7 /* DetalesDaPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44A671FE47F7E00645FD7 /* DetalesDaPessoaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57105E741FA3F1070078D898 /* DetalhesDoJogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesDoJogoViewController.swift; sourceTree = "<group>"; };
+		5732D7401FB658F300D21492 /* ListaDePessosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaDePessosTableViewController.swift; sourceTree = "<group>"; };
+		5732D7421FB6594F00D21492 /* NovaPessoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaPessoaViewController.swift; sourceTree = "<group>"; };
+		5738749A1F9173D000FC5A46 /* ProjetoJogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoJogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5738749D1F9173D000FC5A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5738749F1F9173D000FC5A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		573874A21F9173D000FC5A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573874A41F9173D000FC5A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573874A71F9173D000FC5A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573874A91F9173D000FC5A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573874AF1F91864D00FC5A46 /* ListaJogosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaJogosTableViewController.swift; sourceTree = "<group>"; };
+		573874B11F91872600FC5A46 /* NovoJogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoJogoViewController.swift; sourceTree = "<group>"; };
+		5792541E1F9AB7A40052177B /* Jogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jogo.swift; sourceTree = "<group>"; };
+		92128CC6B936ECC448ED88F5 /* Pods_ProjetoJogo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoJogo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960FA9A82029023100AC632A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		960FA9AB2029118F00AC632A /* FIRDataBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDataBaseService.swift; sourceTree = "<group>"; };
+		96131580202A51E30046781A /* JogoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoService.swift; sourceTree = "<group>"; };
+		96131582202A54B80046781A /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		96131584202A67260046781A /* JogoSnapShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoSnapShot.swift; sourceTree = "<group>"; };
+		967325D22027A32400F4BC04 /* DevolucaoPorPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolucaoPorPessoaViewController.swift; sourceTree = "<group>"; };
+		96A466D620128CAB0010AF9A /* ProjetoJogo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoJogo.xcdatamodel; sourceTree = "<group>"; };
+		96C12A5D201BD8AD0082C3E1 /* locarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locarViewController.swift; sourceTree = "<group>"; };
+		96C12A5F201BDF5C0082C3E1 /* LocarJogoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocarJogoTableViewController.swift; sourceTree = "<group>"; };
+		96C12A61201CBE260082C3E1 /* SelecionarPessoaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionarPessoaTableViewController.swift; sourceTree = "<group>"; };
+		96E4537320250C1700A90EDE /* DevolucaoPorJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolucaoPorJogoViewController.swift; sourceTree = "<group>"; };
+		96E4537A20251D4800A90EDE /* DevolucaoPorPessoaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolucaoPorPessoaTableViewController.swift; sourceTree = "<group>"; };
+		96E777782022657D0019BBF1 /* PessoaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PessoaTableViewCell.xib; sourceTree = "<group>"; };
+		96E7777A202278ED0019BBF1 /* DevolucaoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolucaoTableViewController.swift; sourceTree = "<group>"; };
+		A04AA0F32D0965D6950BFFCF /* Pods-ProjetoJogo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoJogo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoJogo/Pods-ProjetoJogo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7144433F573D77FF175116 /* Pods-ProjetoJogo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoJogo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoJogo/Pods-ProjetoJogo.release.xcconfig"; sourceTree = "<group>"; };
+		F4A44A621FE46AD600645FD7 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		F4A44A651FE470E800645FD7 /* PessoaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaTableViewCell.swift; sourceTree = "<group>"; };
+		F4A44A671FE47F7E00645FD7 /* DetalesDaPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalesDaPessoaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573874971F9173D000FC5A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09DB99CF2962F228C82DF7 /* Pods_ProjetoJogo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B364D63584470B6F69BF4FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92128CC6B936ECC448ED88F5 /* Pods_ProjetoJogo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5732D73D1FB657FB00D21492 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5738749F1F9173D000FC5A46 /* ViewController.swift */,
+				573874B11F91872600FC5A46 /* NovoJogoViewController.swift */,
+				57105E741FA3F1070078D898 /* DetalhesDoJogoViewController.swift */,
+				5732D7421FB6594F00D21492 /* NovaPessoaViewController.swift */,
+				F4A44A671FE47F7E00645FD7 /* DetalesDaPessoaViewController.swift */,
+				96C12A5D201BD8AD0082C3E1 /* locarViewController.swift */,
+				96E4537320250C1700A90EDE /* DevolucaoPorJogoViewController.swift */,
+				967325D22027A32400F4BC04 /* DevolucaoPorPessoaViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5732D73E1FB6584B00D21492 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				573874AF1F91864D00FC5A46 /* ListaJogosTableViewController.swift */,
+				5732D7401FB658F300D21492 /* ListaDePessosTableViewController.swift */,
+				96C12A5F201BDF5C0082C3E1 /* LocarJogoTableViewController.swift */,
+				96C12A61201CBE260082C3E1 /* SelecionarPessoaTableViewController.swift */,
+				96E7777A202278ED0019BBF1 /* DevolucaoTableViewController.swift */,
+				96E4537A20251D4800A90EDE /* DevolucaoPorPessoaTableViewController.swift */,
+			);
+			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		5732D73F1FB658BA00D21492 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5792541E1F9AB7A40052177B /* Jogo.swift */,
+				F4A44A621FE46AD600645FD7 /* Pessoa.swift */,
+				96131584202A67260046781A /* JogoSnapShot.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		573874911F9173CF00FC5A46 = {
+			isa = PBXGroup;
+			children = (
+				5738749C1F9173D000FC5A46 /* ProjetoJogo */,
+				5738749B1F9173D000FC5A46 /* Products */,
+				97B6CD04CE36BD1F3F40046F /* Pods */,
+				1B364D63584470B6F69BF4FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5738749B1F9173D000FC5A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5738749A1F9173D000FC5A46 /* ProjetoJogo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5738749C1F9173D000FC5A46 /* ProjetoJogo */ = {
+			isa = PBXGroup;
+			children = (
+				960FA9AA2029113200AC632A /* Service */,
+				F4A44A641FE470A600645FD7 /* celulas */,
+				5732D73F1FB658BA00D21492 /* Models */,
+				5732D73E1FB6584B00D21492 /* TableViewControllers */,
+				5732D73D1FB657FB00D21492 /* ViewControllers */,
+				5738749D1F9173D000FC5A46 /* AppDelegate.swift */,
+				573874A11F9173D000FC5A46 /* Main.storyboard */,
+				573874A41F9173D000FC5A46 /* Assets.xcassets */,
+				573874A61F9173D000FC5A46 /* LaunchScreen.storyboard */,
+				573874A91F9173D000FC5A46 /* Info.plist */,
+				960FA9A82029023100AC632A /* GoogleService-Info.plist */,
+				96A466D520128CAB0010AF9A /* ProjetoJogo.xcdatamodeld */,
+			);
+			path = ProjetoJogo;
+			sourceTree = "<group>";
+		};
+		960FA9AA2029113200AC632A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				960FA9AB2029118F00AC632A /* FIRDataBaseService.swift */,
+				96131580202A51E30046781A /* JogoService.swift */,
+				96131582202A54B80046781A /* CoreDataService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		97B6CD04CE36BD1F3F40046F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A04AA0F32D0965D6950BFFCF /* Pods-ProjetoJogo.debug.xcconfig */,
+				ED7144433F573D77FF175116 /* Pods-ProjetoJogo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4A44A641FE470A600645FD7 /* celulas */ = {
+			isa = PBXGroup;
+			children = (
+				F4A44A651FE470E800645FD7 /* PessoaTableViewCell.swift */,
+				96E777782022657D0019BBF1 /* PessoaTableViewCell.xib */,
+			);
+			name = celulas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573874991F9173D000FC5A46 /* ProjetoJogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573874AC1F9173D000FC5A46 /* Build configuration list for PBXNativeTarget "ProjetoJogo" */;
+			buildPhases = (
+				73097EA38845F58CA66BFABB /* [CP] Check Pods Manifest.lock */,
+				573874961F9173D000FC5A46 /* Sources */,
+				573874971F9173D000FC5A46 /* Frameworks */,
+				573874981F9173D000FC5A46 /* Resources */,
+				7B5FDC1160B6D80D5C178CD7 /* [CP] Embed Pods Frameworks */,
+				7CE7507C291C1C2959429FE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetoJogo;
+			productName = ProjetoJogo;
+			productReference = 5738749A1F9173D000FC5A46 /* ProjetoJogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573874921F9173CF00FC5A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mctech Aluno";
+				TargetAttributes = {
+					573874991F9173D000FC5A46 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 573874951F9173CF00FC5A46 /* Build configuration list for PBXProject "ProjetoJogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573874911F9173CF00FC5A46;
+			productRefGroup = 5738749B1F9173D000FC5A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573874991F9173D000FC5A46 /* ProjetoJogo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573874981F9173D000FC5A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573874A81F9173D000FC5A46 /* LaunchScreen.storyboard in Resources */,
+				573874A51F9173D000FC5A46 /* Assets.xcassets in Resources */,
+				960FA9A92029023200AC632A /* GoogleService-Info.plist in Resources */,
+				96E777792022657D0019BBF1 /* PessoaTableViewCell.xib in Resources */,
+				573874A31F9173D000FC5A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73097EA38845F58CA66BFABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjetoJogo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5FDC1160B6D80D5C178CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoJogo/Pods-ProjetoJogo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoJogo/Pods-ProjetoJogo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE7507C291C1C2959429FE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjetoJogo/Pods-ProjetoJogo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573874961F9173D000FC5A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96131585202A67270046781A /* JogoSnapShot.swift in Sources */,
+				F4A44A661FE470E800645FD7 /* PessoaTableViewCell.swift in Sources */,
+				96C12A62201CBE260082C3E1 /* SelecionarPessoaTableViewController.swift in Sources */,
+				960FA9AC2029118F00AC632A /* FIRDataBaseService.swift in Sources */,
+				96C12A5E201BD8AD0082C3E1 /* locarViewController.swift in Sources */,
+				96C12A60201BDF5C0082C3E1 /* LocarJogoTableViewController.swift in Sources */,
+				967325D32027A32400F4BC04 /* DevolucaoPorPessoaViewController.swift in Sources */,
+				573874B01F91864D00FC5A46 /* ListaJogosTableViewController.swift in Sources */,
+				96A466D720128CAB0010AF9A /* ProjetoJogo.xcdatamodeld in Sources */,
+				96131583202A54B80046781A /* CoreDataService.swift in Sources */,
+				5732D7411FB658F300D21492 /* ListaDePessosTableViewController.swift in Sources */,
+				5792541F1F9AB7A40052177B /* Jogo.swift in Sources */,
+				F4A44A681FE47F7F00645FD7 /* DetalesDaPessoaViewController.swift in Sources */,
+				57105E751FA3F1070078D898 /* DetalhesDoJogoViewController.swift in Sources */,
+				F4A44A631FE46AD700645FD7 /* Pessoa.swift in Sources */,
+				96131581202A51E30046781A /* JogoService.swift in Sources */,
+				573874A01F9173D000FC5A46 /* ViewController.swift in Sources */,
+				96E4537420250C1700A90EDE /* DevolucaoPorJogoViewController.swift in Sources */,
+				5738749E1F9173D000FC5A46 /* AppDelegate.swift in Sources */,
+				573874B21F91872600FC5A46 /* NovoJogoViewController.swift in Sources */,
+				96E4537B20251D4800A90EDE /* DevolucaoPorPessoaTableViewController.swift in Sources */,
+				96E7777B202278EE0019BBF1 /* DevolucaoTableViewController.swift in Sources */,
+				5732D7431FB6594F00D21492 /* NovaPessoaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573874A11F9173D000FC5A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573874A21F9173D000FC5A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573874A61F9173D000FC5A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573874A71F9173D000FC5A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573874AA1F9173D000FC5A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		573874AB1F9173D000FC5A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573874AD1F9173D000FC5A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04AA0F32D0965D6950BFFCF /* Pods-ProjetoJogo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjetoJogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mctech.ProjetoJogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		573874AE1F9173D000FC5A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7144433F573D77FF175116 /* Pods-ProjetoJogo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjetoJogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mctech.ProjetoJogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573874951F9173CF00FC5A46 /* Build configuration list for PBXProject "ProjetoJogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573874AA1F9173D000FC5A46 /* Debug */,
+				573874AB1F9173D000FC5A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573874AC1F9173D000FC5A46 /* Build configuration list for PBXNativeTarget "ProjetoJogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573874AD1F9173D000FC5A46 /* Debug */,
+				573874AE1F9173D000FC5A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96A466D520128CAB0010AF9A /* ProjetoJogo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96A466D620128CAB0010AF9A /* ProjetoJogo.xcdatamodel */,
+			);
+			currentVersion = 96A466D620128CAB0010AF9A /* ProjetoJogo.xcdatamodel */;
+			path = ProjetoJogo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 573874921F9173CF00FC5A46 /* Project object */;
+}
